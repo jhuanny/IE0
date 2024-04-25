@@ -4,6 +4,7 @@ import cors from "cors";
 const app = express();
 const port = 8000;
 
+app.use(cors());
 app.use(express.json());
 
 const findUserByName = (name) => {
@@ -111,8 +112,9 @@ app.get("/users/:job", (req, res) => {
 
 app.post("/users", (req, res) => {
   const userToAdd = req.body;
+  userToAdd.id = Math.floor(Math.random() * 10000).toString();
   addUser(userToAdd);
-  res.send();
+  res.status(201).send(userToAdd);
 });
 
 app.listen(port, () => {
@@ -127,7 +129,7 @@ app.delete("/users/:id", (req, res) => {
     users.users_list = users.users_list.filter(user => user.id !== id);
     const currentLength = users.users_list.length;
     if (initialLength > currentLength) {
-        res.status(200).send(`User with id ${id} has been deleted.`);
+        res.status(201).send(`User with id ${id} has been deleted.`);
     } else {
         res.status(404).send("User not found.");
     }
