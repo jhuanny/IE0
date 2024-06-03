@@ -1,0 +1,205 @@
+.pandaTodo {
+    position: absolute;
+    top: 3.5rem;
+    left: 29.125rem;
+    font-size: 3.125rem;
+    display: inline-block;
+    width: 21.688rem;
+    height: 4rem;
+  }
+  .loginPageChild,
+  .loginPageItem {
+    position: absolute;
+    top: -1.625rem;
+    left: 46.625rem;
+    width: 74.213rem;
+    height: 54.794rem;
+  }
+  .loginPageItem {
+    top: 9.063rem;
+    left: 26.375rem;
+    border-radius: 10px;
+    width: 27.563rem;
+    height: 33.375rem;
+  }
+  .loginPageInner {
+    position: absolute;
+    top: 33.688rem;
+    left: 28.75rem;
+    border-radius: var(--br-5xs);
+    width: 22.813rem;
+    height: 3rem;
+    cursor: pointer;
+  }
+  .signIn {
+    position: absolute;
+    top: 12.563rem;
+    left: 39rem;
+    font-size: 2.331rem;
+    display: inline-block;
+    font-family: var(--font-istok-web);
+    width: 10.5rem;
+    height: 3.313rem;
+    mix-blend-mode: hard-light;
+  }
+  .loginPageChild1,
+  .rectangleIcon {
+    border-radius: var(--br-5xs);
+    width: 22.813rem;
+    height: 3rem;
+  }
+  .rectangleIcon {
+    position: absolute;
+    top: 21.125rem;
+    left: 28.75rem;
+  }
+  .loginPageChild1 {
+    top: 28rem;
+  }
+  .logIn,
+  .loginPageChild1,
+  .username {
+    position: absolute;
+    left: 28.75rem;
+  }
+  .username {
+    top: 19.063rem;
+    font-family: var(--font-inter);
+    display: inline-block;
+    width: 6.875rem;
+    height: 1.4rem;
+    mix-blend-mode: difference;
+  }
+  .logIn {
+    top: 11.938rem;
+    font-size: 2.188rem;
+    color: #000;
+  }
+  .password {
+    top: 25.75rem;
+    left: 28.75rem;
+    font-family: var(--font-inter);
+    width: 6.594rem;
+    height: 1.594rem;
+    mix-blend-mode: difference;
+  }
+  .dontHaveAn,
+  .logIn1,
+  .password,
+  .signUp {
+    position: absolute;
+    display: inline-block;
+  }
+  .logIn1 {
+    top: 34.563rem;
+    left: 37.813rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    width: 7.625rem;
+    height: 3.313rem;
+  }
+  .dontHaveAn,
+  .signUp {
+    top: 14.625rem;
+    text-align: center;
+  }
+  .signUp {
+    left: 42.375rem;
+    text-decoration: underline;
+    color: #f79b9b;
+    width: 6.063rem;
+    height: 2.938rem;
+    cursor: pointer;
+  }
+  .dontHaveAn {
+    left: 28.125rem;
+    color: rgba(0, 0, 0, 0.42);
+    width: 15rem;
+    height: 2.563rem;
+  }
+  .screenshot20240524At305,
+  .screenshot20240524At310 {
+    position: absolute;
+    top: 4rem;
+    left: 55.75rem;
+    width: 10.75rem;
+    height: 11.188rem;
+    object-fit: cover;
+  }
+  .screenshot20240524At310 {
+    top: 41.938rem;
+    left: 63.813rem;
+    width: 11.813rem;
+    height: 10.938rem;
+  }
+  .screenshot20240524At308,
+  .screenshot20240524At3101 {
+    position: absolute;
+    top: 14.938rem;
+    left: 68.25rem;
+    width: 12.063rem;
+    height: 12.25rem;
+    object-fit: cover;
+  }
+  .screenshot20240524At3101 {
+    top: 10.688rem;
+    left: 15.375rem;
+    width: 11rem;
+    height: 13rem;
+  }
+  .screenshot20240524At255,
+  .screenshot20240524At309 {
+    position: absolute;
+    top: 42.813rem;
+    left: 1.5rem;
+    width: 12.5rem;
+    height: 9.188rem;
+    object-fit: cover;
+  }
+  .screenshot20240524At309 {
+    top: 17.75rem;
+    width: 11.125rem;
+    height: 12.75rem;
+  }
+  .screenshot20240524At257,
+  .screenshot20240524At313 {
+    position: absolute;
+    top: 42.438rem;
+    left: 36.375rem;
+    width: 13.438rem;
+    height: 9.125rem;
+    object-fit: cover;
+  }
+  .screenshot20240524At257 {
+    top: 3rem;
+    left: 3.875rem;
+    width: 10.125rem;
+    height: 6.563rem;
+  }
+  .screenshot20240524At311,
+  .screenshot20240524At315 {
+    position: absolute;
+    top: 26rem;
+    left: 56.438rem;
+    width: 14.313rem;
+    height: 12.875rem;
+    object-fit: cover;
+  }
+  .screenshot20240524At315 {
+    top: 30rem;
+    left: 12.938rem;
+    width: 12.25rem;
+    height: 12.438rem;
+  }
+  .loginPage {
+    width: 100%;
+    position: relative;
+    background-color: #f8c0c0;
+    height: 52rem;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-2xl-3);
+    color: var(--color-white);
+    font-family: var(--font-nunito-sans);
+  }
+  

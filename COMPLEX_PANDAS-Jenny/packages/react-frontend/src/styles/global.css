@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-nunito-sans: "Nunito Sans";
+  --font-inter: Inter;
+  --font-istok-web: "Istok Web";
+
+  /* font sizes */
+  --font-size-2xl-3: 1.331rem;
+
+  /* Colors */
+  --color-white: #fff;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+}
